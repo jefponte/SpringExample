@@ -35,10 +35,17 @@ public class HomeController {
 }
 
 ```
-Stepe 3 - Add dependecy tymeleaf 
+Stepe 3 - Add dependecy tymeleaf and devtools
 ```xml
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
+
+        <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+		</dependency>
 ```
+
